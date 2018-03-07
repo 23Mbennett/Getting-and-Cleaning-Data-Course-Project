@@ -44,9 +44,10 @@ These transformations can be executed with the script "run_analysis.R".
 * TidyDataSet: This Dataset contains all sorted and final data 
 
 ## Tidy Data
-subject - The ID of the test subject
-activity - The type of activity performed when the corresponding measurements were taken
-Measurements
+The end result is shown in the file TidyDataSet.txt. The following are the variables: 
+* subject_Id: The ID of the test subject
+* activity_Id: The type of activity performed. The activities are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
+* Measurements: 
 tBodyAccMeanX
 tBodyAccMeanY
 tBodyAccMeanZ
