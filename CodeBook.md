@@ -28,3 +28,18 @@ These transformations can be executed with the script "run_analysis.R".
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Variables
+
+x_train: Contains the dataof X_train.txt
+y_train: Contains the data of y_train.txt
+subject_train: Contains the data of subject_train.txt
+x_test: Contains the data of X_test.txt
+y_test: Contains the data of y_test.txt
+subject_test: Contains the data of subject_test.txt
+features: Contains the data of features.txt
+activity_labels: Contains the data of activity_labels.tx
+train: This Dataset is resulted of merge the data of y_train, subject_train and x_train
+test: This Dataset is resulted of merge the data of y_test, subject_test and x_test
+all: This Dataset is resulted of merge the data of train and test
+extract: This array contains the positions that match with mean or std variable 
+mean_std: This Dataset contains the measurements on the mean and standard deviation for each measurements
+TidyDataSet: This Dataset contains all sorted and final data 
