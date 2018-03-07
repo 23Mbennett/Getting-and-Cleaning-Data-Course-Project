@@ -1,3 +1,5 @@
+# This script transforms the raw data to tidy data according to the instructions given for this project.
+
 library(plyr)
 library(reshape2)
 
