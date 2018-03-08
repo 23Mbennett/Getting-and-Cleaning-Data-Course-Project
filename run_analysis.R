@@ -40,7 +40,7 @@ all <- rbind(train, test)
 # 2. Extracting only the measurements on the mean and standard deviation for each measurement
 
 extract <- grep("mean|std", features[,2])
-mean_std <- all[,extract]
+mean_std <- all[extract,]
 
 # 3. Uses descriptive activity names to name the activities in the data set:
 
